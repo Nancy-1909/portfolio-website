@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Nancy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="index.html">NANCY</a>
+      <button id="nav-toggle-3" aria-label="Open navigation">☰</button>
+      <ul class="nav-links" id="nav-links-3">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container contact-page">
+    <section class="contact-hero">
+      <h1>Contact</h1>
+      <p class="muted">Have a project idea or a question? Send a note.</p>
+    </section>
+
+    <section class="contact-grid">
+      <form id="contact-form" class="contact-form" onsubmit="return handleContact(event)">
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" placeholder="Your name" required>
+        </label>
+
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" placeholder="myexample@gmail.com" required>
+        </label>
+
+        <label>
+          <span>Message</span>
+          <textarea name="message" placeholder="Tell me about your project..." rows="6" required></textarea>
+        </label>
+
+        <div>
+          <button class="btn" type="submit">Send message</button>
+        </div>
+      </form>
+
+      <aside class="contact-info">
+        <h3>Contact info</h3>
+        <p>Email: <a href="mailto:you@example.com">sknancy09@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/nancy-sk-97624b37b/" target="_blank" rel="noopener">https://www.linkedin.com/in/nancy-sk-97624b37b/</a></p>
+        <h4>Hobbies</h4>
+        <div class="icons-row">
+          <div class="icon-pill">🎨 Illustration</div>
+          <div class="icon-pill">🎮 Games</div>
+          <div class="icon-pill">✍️ Sketching</div>
+        </div>
+      </aside>
+    </section>
+
+    <footer class="site-footer">
+      <div>© <span id="year2"></span> Nancy</div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

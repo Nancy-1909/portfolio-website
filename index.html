@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nancy — Student Developer</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="index.html">NANCY</a>
+      <button id="nav-toggle" aria-label="Open navigation">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero-left">
+        <h1 class="title">HELLO!<span class="dot">.</span></h1>
+        <p class="subtitle">I’m <strong>Nancy</strong> — <span class="role">Student Developer</span></p>
+        <p class="lead">I build small web apps and UI experiments using HTML, CSS & JS. I love clean retro-inspired visuals and playful micro-interactions.</p>
+        <div class="cta-row">
+          <a class="btn" href="projects.html">View Projects</a>
+          <a class="btn ghost" href="contact.html">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="illustration-wrap">
+          <img src="nancy.jpg" alt="Illustration" class="illustration">
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-rule container">
+
+    <!-- ABOUT & SKILLS -->
+    <section class="container about-grid">
+      <div class="about-card">
+        <h2>About</h2>
+        <p>Hi — I'm Nancy, a Student Developer learning modern front-end development. I enjoy turning ideas into interactive interfaces, with attention to typography and composition.</p>
+        <ul class="meta">
+          <li><strong>Role:</strong> Student Developer</li>
+          <li><strong>Tools:</strong> HTML • CSS • JavaScript • Figma</li>
+          <li><strong>Location:</strong> DELHI</li>
+        </ul>
+      </div>
+
+      <div class="skills-card">
+        <h2>Aptitudes</h2>
+        <div class="skill-pill">HTML</div>
+        <div class="skill-pill">CSS</div>
+        <div class="skill-pill">JavaScript</div>
+        <div class="skill-pill">Responsive Design</div>
+        <div class="skill-pill">UI/UX basics</div>
+      </div>
+    </section>
+
+    <hr class="section-rule container">
+
+    <!-- EXPERIENCE / EDUCATION -->
+    <section class="container two-col">
+      <div>
+        <h3 class="section-title">Experiences</h3>
+        <div class="timeline">
+          <div class="item">
+            <h4>Student Projects</h4>
+            <p class="muted">2024 — Present</p>
+            <p>Built small responsive websites and projects.</p>
+          </div>
+          <div class="item">
+            <h4>SOFT SKILLS</h4>
+            <p class="muted">Good communication,Time management,Team work,Problem solving,Decision making</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="section-title">Education</h3>
+        <div class="timeline">
+          <div class="item">
+            <h4>Computer Science (ongoing)</h4>
+            <p class="muted">College-INDIRA GANDHI DELHI TECHNICAL UNIVERSITY OF WOMEN</p>
+            <p>Studying software fundamentals and web development.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-rule container">
+
+    <!-- GALLERY PREVIEW -->
+    <section class="container gallery-preview">
+      <h3 class="section-title">Selected Work</h3>
+      <div class="grid">
+        <a class="card" href="projects.html#p1">
+          <img src="project1.jpg" alt="Project 1">
+          <div class="card-info"><strong>Project One</strong><span>Library Management</span></div>
+        </a>
+        <a class="card" href="projects.html#p2">
+          <img src="project2.jpg" alt="Project 2">
+          <div class="card-info"><strong>Project Two</strong><span>calculator</span></div>
+        </a>
+        <a class="card" href="projects.html#p3">
+          <img src="project3.jpg" alt="Project 3">
+          <div class="card-info"><strong>Project Three</strong><span>portfolio</span></div>
+        </a>
+      </div>
+    </section>
+
+    <footer class="site-footer container">
+      <div>© <span id="year"></span> Nancy — Student Developer</div>
+      <div class="socials">
+        <a href="https://github.com/Nancy-1909" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/nancy-sk-97624b37b/" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

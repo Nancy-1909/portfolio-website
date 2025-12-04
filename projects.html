@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Nancy</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="index.html">NANCY</a>
+      <button id="nav-toggle-2" aria-label="Open navigation">☰</button>
+      <ul class="nav-links" id="nav-links-2">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="projects-hero">
+      <h1>Projects</h1>
+      <p class="muted">A selection of small projects and coursework.</p>
+    </section>
+
+    <section class="projects-grid" aria-label="projects">
+      <article class="project-card" id="p1">
+        <img src="project1.jpg" alt="Project 1 screenshot">
+        <div class="project-body">
+          <h3>Project One</h3>
+          <p>Python program to manage books in a library.</p>
+          <div class="tags"><span>Library Management</span></div>
+          <a class="btn small" href="#">Live demo</a>
+        </div>
+      </article>
+
+      <article class="project-card" id="p2">
+        <img src="project2.jpg" alt="Project 2 screenshot">
+        <div class="project-body">
+          <h3>Project Two</h3>
+          <p>simple calculator application that performs basic arithmetic operations</p>
+          <div class="tags"><span>JS</span><span>calculator</span></div>
+          <a class="btn small" href="#">Live demo</a>
+        </div>
+      </article>
+
+      <article class="project-card" id="p3">
+        <img src="project3.jpg" alt="Project 3 screenshot">
+        <div class="project-body">
+          <h3>Project Three</h3>
+          <p>personal portfolio website created using HTML, CSS, and JavaScript</p>
+          <div class="tags"><span>JS</span><span>portfolio</span></div>
+          <a class="btn small" href="#">Live demo</a>
+        </div>
+      </article>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">← <a href="index.html">Back to home</a></div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
